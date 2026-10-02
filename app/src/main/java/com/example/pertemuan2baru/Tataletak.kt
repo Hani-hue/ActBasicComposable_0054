@@ -162,5 +162,12 @@ fun TataletakBoxColumnRow(modifier: Modifier = Modifier) {
         }
     }
 }
+@Preview(showBackground = true)
+@Composable
+fun PreviewTataletakColumn() { TataletakColumn() }
+
+@Preview(showBackground = true)
+@Composable
+fun PreviewTataletakRow() { TataletakRow() }
 
 
