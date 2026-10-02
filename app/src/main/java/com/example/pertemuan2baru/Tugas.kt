@@ -54,6 +54,36 @@ fun Tugas(modifier: Modifier = Modifier) {
                 fontSize = 14.sp,
                 color = Color.White
             )
+            Spacer(modifier = Modifier.height(24.dp))
+
+            Image(
+                painter = painterResource(id = R.drawable.logo_umy),
+                contentDescription = null,
+                modifier = Modifier.size(130.dp),
+                contentScale = ContentScale.Fit
+            )
+
+            Spacer(modifier = Modifier.height(40.dp))
+
+            Text(
+                text = "Nama",
+                fontSize = 12.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Red
+            )
+            Text(
+                text = "Isna Habibah Ramadhani",
+                fontSize = 14.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Blue
+            )
+            Text(
+                text = "20240140054",
+                fontSize = 20.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Black
+            )
+
         }
     }
 }
