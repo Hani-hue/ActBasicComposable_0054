@@ -26,3 +26,34 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
+@Composable
+fun Tugas(modifier: Modifier = Modifier) {
+    Box(modifier = modifier.fillMaxSize()) {
+        Image(
+            painter = painterResource(id = R.drawable.bg_pink),
+            contentDescription = null,
+            modifier = Modifier.fillMaxSize(),
+            contentScale = ContentScale.Crop
+        )
+
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(top = 40.dp, bottom = 24.dp),
+            horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.Top
+        ) {
+            Text(
+                text = "Login",
+                fontSize = 28.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Blue
+            )
+            Text(
+                text = "Ini adalah halaman login,",
+                fontSize = 14.sp,
+                color = Color.White
+            )
+        }
+    }
+}
