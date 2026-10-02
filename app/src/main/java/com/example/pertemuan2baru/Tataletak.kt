@@ -170,4 +170,11 @@ fun PreviewTataletakColumn() { TataletakColumn() }
 @Composable
 fun PreviewTataletakRow() { TataletakRow() }
 
+@Preview(showBackground = true)
+@Composable
+fun PreviewTataletakBox() { TataletakBox() }
+
+@Preview(showBackground = true)
+@Composable
+fun PreviewTataletakColumnRow() { TataletakColumnRow() }
 
