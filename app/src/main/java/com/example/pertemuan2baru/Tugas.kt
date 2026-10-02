@@ -87,3 +87,9 @@ fun Tugas(modifier: Modifier = Modifier) {
         }
     }
 }
+
+@Preview(showBackground = true)
+@Composable
+fun TugasPreview() {
+    Tugas()
+}
